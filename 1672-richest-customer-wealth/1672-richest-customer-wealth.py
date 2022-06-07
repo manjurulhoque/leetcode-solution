@@ -4,5 +4,5 @@ class Solution:
         
         for ac in accounts:
             wealth.append(sum(ac))
-        wealth.sort()
-        return wealth[-1]
+        
+        return max(wealth)
